@@ -22,7 +22,7 @@ for json_path in glob.glob(os.path.join(JSON_FILE_PATH, "*.json")):
       center_y = top + height/2
       
       tag_name = anot['tags'][0]
-      Totxt_str = ANOTNAME_NUM[tag_name] + " " + str(center_x) + " " + str(center_y) + " " + str(height) + " " + str(width)
+      Totxt_str = ANOTNAME_NUM[tag_name] + " " + str(center_x) + " " + str(center_y) + " " + str(width) + " " + str(height)
 
       print(Totxt_str)
 
